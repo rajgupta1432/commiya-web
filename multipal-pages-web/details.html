@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commiya</title>
+    <!-- FlatiCon Link -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!-- Swiper CSs File -->
+    <link rel="stylesheet" href="Css/swiper-bundle.min.css" />
+    <!-- CSs Style Link -->
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+
+<body>
+     <!-- Header Section -->
+     <header class="header">
+        <!-- Header Top Banner -->
+        <div class="header_top">
+            <div class="header_container container">
+                <div class="header_contact">
+                    <span>(+91) 123-2345-123</span>
+                    <span>Our location</span>
+                </div>
+
+                <p class="header_alert-news">
+                    Super Value Deals - Save more with coupons
+                </p>
+
+                <a href="login-page.html" class="header_top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Header(Navbar)  -->
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">
+                <img src="img/logo1.png" alt="logo" class="nav_logo-svg" />
+            </a>
+            <div class="nav_menu" id="nav-menu">
+                <div class="nav_menu-top">
+                    <a href="index.html" class="nav_menu-logo">
+                        <img src="Img/logo1.png" alt="">
+                    </a>
+                    <div class="nav_close" id="nav-close">
+                        <i class="fi fi-rs-cross-small"></i>
+                    </div>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html" class="nav_link active-link">Home</a></li>
+                    <li class="nav_item"><a href="shop.html" class="nav_link">Shop</a></li>
+                    <li class="nav_item"><a href="accounts.html" class="nav_link">My Account</a></li>
+                    <li class="nav_item"><a href="compare.html" class="nav_link">Compare</a></li>
+                    <li class="nav_item"><a href="login-page.html" class="nav_link">Login</a></li>
+                </ul>
+
+                <div class="header_search">
+                    <input type="text" placeholder="Search for items...." class="form_input">
+
+                    <button class="search_btn">
+                        <img src="Img/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header_user-actions">
+                <a href="wishlist.html" class="header_action-btn">
+                    <img src="Img/icon-heart.svg" alt="">
+                    <span class="count">3</span>
+                </a>
+
+                <a href="cart.html" class="header_action-btn">
+                    <img src="Img/icon-cart.svg" alt="">
+                    <span class="count">3</span>
+                </a>
+
+                <div class="header_action-btn nav_toggle" id="nav-toggle">
+                    <img src="Img/menu-burger.svg" alt="">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!------------- Breadcrumb section ------------->
+        <section class="breadcrumb">
+            <ul class="breadcrumb_list flex container">
+                <li><a href="index.html" class="breadcrumb_link">Home</a></li>
+                <li><span class="breadcrumb_link">></span></li>
+                <li><span class="breadcrumb_link">Fashion</span></li>
+                <li><span class="breadcrumb_link">></span></li>
+                <li><span class="breadcrumb_link">Henley Shirt</span></li>
+            </ul>
+        </section>
+
+        <!------------- Details section ------------->
+        <section class="details section-lg">
+            <div class="details_container container grid">
+                <div class="details_group">
+                    <img src="Img/product-8-1.jpg" alt="" class="details_img">
+
+                    <div class="details_small-images grid">
+                        <img src="Img/product-8-2.jpg" alt="" class="details_small-img">
+                        <img src="Img/product-8-1.jpg" alt="" class="details_small-img">
+                        <img src="Img/product-8-2.jpg" alt="" class="details_small-img">
+                    </div>
+                </div>
+                <div class="details_group">
+                    <h3 class="details_title">Amazing Shirt</h3>
+                    <p class="details_brand">Brands: <span>H&M</span></p>
+
+                    <div class="details_price flex">
+                        <span class="new_price">$294</span>
+                        <span class="old_price">$246.00</span>
+                        <span class="save_price">27% off</span>
+                    </div>
+
+                    <p class="short_description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ex ad esse dolore asperiores
+                        cupiditate totam consequatur impedit odio suscipit? Ad enim obcaecati, voluptatem dolor
+                        molestiae esse et? Similique, minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Obcaecati, ipsam.
+                    </p>
+
+                    <ul class="product_list">
+                        <li class="list_item flex">
+                            <i class="fi-rs-crown"></i> 1 Year AL Jazeera Warranty
+                        </li>
+                        <li class="list_item flex">
+                            <i class="fi-rs-refresh"></i> 30 Day Return Policy
+                        </li>
+                        <li class="list_item flex">
+                            <i class="fi-rs-credit-card"></i> Cash on Delivery available
+                        </li>
+                    </ul>
+
+                    <div class="details_color flex">
+                        <span class="details_color-title">Color</span>
+
+                        <ul class="color_list">
+                            <li>
+                                <a href="#" class="color_link" style="background-color: hsl(37, 100%, 65%);"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="color_link" style="background-color: hsl(353, 100%, 67%);"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="color_link" style="background-color: hsl(304, 100%, 78%);"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="color_link" style="background-color: hsl(126, 61%, 52%);"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="details_size flex">
+                        <span class="details_size-title">Size</span>
+
+                        <ul class="size_list">
+                            <li>
+                                <a href="#" class="size_link">S</a>
+                            </li>
+                            <li>
+                                <a href="#" class="size_link size-active">M</a>
+                            </li>
+                            <li>
+                                <a href="#" class="size_link">L</a>
+                            </li>
+                            <li>
+                                <a href="#" class="size_link">XL</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="details_action">
+                        <input type="number" class="quantites" value="3">
+
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+
+                        <a href="#" class="details_action-btn">
+                            <i class="fi fi-rs-heart"></i>
+                        </a>
+                    </div>
+
+                    <ul class="details_meta">
+                        <li class="meta_list flex"><span>SKU:</span> FAHJJUB4UCB</li>
+                        <li class="meta_list flex"><span>Tags:</span> Cloth,Women,Dress</li>
+                        <li class="meta_list flex"><span>Availability:</span> 16 Items In Stock</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!------------- More Details Tab ------------->
+        <section class="details_tab container">
+            <div class="detail_tabs">
+                <span class="detail_tab active-tab" data-target="#info">Additional Info</span>
+                <span class="detail_tab" data-target="#reviews">Reviews(3)</span>
+            </div>
+
+            <div class="details_tabs-content">
+                <div class="details_tab-content active-tab" content id="info">
+                    <table class="info_table">
+                        <tr>
+                            <th>Stand Up</th>
+                            <td>35"Lx24*Wx37-45"H(front to back wheel)</td>
+                        </tr>
+                        <tr>
+                            <th>Folded(w/o wheels)</th>
+                            <td>35"Lx24*Wx37-45"H</td>
+                        </tr>
+                        <tr>
+                            <th>Folded(w/o wheels)</th>
+                            <td>35"Lx24*Wx37-45"H</td>
+                        </tr>
+                        <tr>
+                            <th>Door Pass Through</th>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <th>Frame</th>
+                            <td>Aluminum</td>
+                        </tr>
+                        <tr>
+                            <th>Weight(w/o wheels)</th>
+                            <td>20 LBS</td>
+                        </tr>
+                        <tr>
+                            <th>Weight Capacity</th>
+                            <td>60 LBS</td>
+                        </tr>
+                        <tr>
+                            <th>Width</th>
+                            <td>24"</td>
+                        </tr>
+                        <tr>
+                            <th>Handle height(ground to handle)</th>
+                            <td>37-45"</td>
+                        </tr>
+                        <tr>
+                            <th>Wheels</th>
+                            <td>12" air/wide track slick tread</td>
+                        </tr>
+                        <tr>
+                            <th>Seat back height</th>
+                            <td>21.5"</td>
+                        </tr>
+                        <tr>
+                            <th>Head room (inside canopy)</th>
+                            <td>25"</td>
+                        </tr>
+                        <tr>
+                            <th>Color</th>
+                            <td>Black,White,Red,Blue</td>
+                        </tr>
+                        <tr>
+                            <th>Size</th>
+                            <td>S,M,L,XL,XXL</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="details_tab-content" content id="reviews">
+                    <div class="reviews_container grid">
+                        <div class="reviews_single">
+                            <div>
+                                <img src="Img/avatar-1.jpg" alt="" class="reviews_img">
+                                <h4 class="reviews_title">Humany Suty</h4>
+                            </div>
+                            <div class="reviews_data">
+                                <div class="reviews_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+
+                                <p class="reviews_description">
+                                    Thank you very fast shipping fron icepan only 3days
+                                </p>
+
+                                <span class="reviews_date">December 4, 2024 at 2:12 pm</span>
+                            </div>
+                        </div>
+
+                        <div class="reviews_single">
+                            <div>
+                                <img src="Img/avatar-2.jpg" alt="" class="reviews_img">
+                                <h4 class="reviews_title">Jony Suty</h4>
+                            </div>
+                            <div class="reviews_data">
+                                <div class="reviews_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+
+                                <p class="reviews_description">
+                                    Great low price and work well.
+                                </p>
+
+                                <span class="reviews_date">May 4, 2024 at 2:12 pm</span>
+                            </div>
+                        </div>
+
+                        <div class="reviews_single">
+                            <div>
+                                <img src="Img/avatar-3.jpg" alt="" class="reviews_img">
+                                <h4 class="reviews_title">Monu Harry</h4>
+                            </div>
+                            <div class="reviews_data">
+                                <div class="reviews_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+
+                                <p class="reviews_description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, asperiores?
+                                </p>
+
+                                <span class="reviews_date">May 4, 2024 at 2:12 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review_form">
+                        <h4 class="review_form-title">Add a review</h4>
+
+                        <div class="rate_product">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <form action="" class="form grid">
+                            <textarea class="form_input textarea" placeholder="Write Comment"></textarea>
+
+                            <div class="form_group grid">
+                                <input type="text" placeholder="Name" class="form_input">
+
+                                <input type="email" placeholder="Email" class="form_input">
+                            </div>
+
+                            <div class="form_btn">
+                                <button class="btn">Submit Review</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!------------- Products Section ------------->
+        <section class="products container section-lg">
+            <h3 class="section_title"><span>Related</span> Products</h3>
+
+            <div class="products_container grid">
+                <div class="product_item">
+                    <div class="product_banner">
+                        <a href="details.html" class="product_images">
+                            <img src="Img/product-9-1.jpg " alt="" class="product_img default">
+
+                            <img src="Img/product-9-2.jpg " alt="" class="product_img hover">
+                        </a>
+                        <div class="product_actions">
+                            <a href="#" class="action_btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+
+                        </div>
+
+                        <div class="product_badge light-pink">Cool</div>
+                    </div>
+                    <div class="product_content">
+                        <span class="product_category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product_title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product_rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+                        <div class="product_price flex">
+                            <span class="new_price">$239.99</span>
+                            <span class="old_price">$279.99</span>
+                        </div>
+
+                        <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_item">
+                    <div class="product_banner">
+                        <a href="details.html" class="product_images">
+                            <img src="Img/product-10-1.jpg " alt="" class="product_img default">
+
+                            <img src="Img/product-10-2.jpg " alt="" class="product_img hover">
+                        </a>
+                        <div class="product_actions">
+                            <a href="#" class="action_btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+
+                        </div>
+
+                        <div class="product_badge light-green">Hot</div>
+                    </div>
+                    <div class="product_content">
+                        <span class="product_category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product_title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product_rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+                        <div class="product_price flex">
+                            <span class="new_price">$229.99</span>
+                            <span class="old_price">$249.99</span>
+                        </div>
+
+                        <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_item">
+                    <div class="product_banner">
+                        <a href="details.html" class="product_images">
+                            <img src="Img/product-11-1.jpg " alt="" class="product_img default">
+
+                            <img src="Img/product-11-2.jpg " alt="" class="product_img hover">
+                        </a>
+                        <div class="product_actions">
+                            <a href="#" class="action_btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+
+                        </div>
+
+                        <div class="product_badge light-orange">-25%</div>
+                    </div>
+                    <div class="product_content">
+                        <span class="product_category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product_title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product_rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+                        <div class="product_price flex">
+                            <span class="new_price">$259.99</span>
+                            <span class="old_price">$289.99</span>
+                        </div>
+
+                        <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_item">
+                    <div class="product_banner">
+                        <a href="details.html" class="product_images">
+                            <img src="Img/product-4-1.jpg " alt="" class="product_img default">
+
+                            <img src="Img/product-4-2.jpg " alt="" class="product_img hover">
+                        </a>
+                        <div class="product_actions">
+                            <a href="#" class="action_btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action_btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+
+                        </div>
+
+                        <div class="product_badge light-blue">-35%</div>
+                    </div>
+                    <div class="product_content">
+                        <span class="product_category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product_title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product_rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+                        <div class="product_price flex">
+                            <span class="new_price">$139.99</span>
+                            <span class="old_price">$179.99</span>
+                        </div>
+
+                        <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!------------- Newsletter section ------------->
+        <section class="newsletter section">
+            <div class="newsletter_conatiner container grid">
+                <h3 class="newsletter_title flex">
+                    <img src="Img/icon-email.svg" alt="" class="newsletter_icon">
+                    Sign up to NewsLetter
+                </h3>
+                <p class="newsletter_descriotion">
+                    ...and receive $50 coupon for first shopping.
+                </p>
+                <form action="" class="newsletter_form">
+                    <input type="text" placeholder="Enter your email" class="newsletter_input">
+                    <button type="submit" class="newsletter_btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!------------- Footer ------------->
+    <footer class="footer container">
+        <div class="footer_container grid">
+            <div class="footer_content">
+                <a href="index.html" class="footer_logo">
+                    <img src="Img/logo1.png" alt="logo" class="footer__logo-img">
+                </a>
+
+                <h4 class="footer_subtitle">Contact</h4>
+
+                <p class="footer_description"> <span>Address:</span>&nbsp; XYZ Munanput Road, Indore MadhyaPredesh,
+                    India </p>
+                <p class="footer_description"> <span>Phone:</span>&nbsp; +91&nbsp; 222 &nbsp; 1111 &nbsp; 222</p>
+                <p class="footer_description"> <span>Opening Timeing:</span>&nbsp; 10:00 AM - 11:00 PM, Mon - Sat</p>
+
+                <div class="footer_social">
+                    <h4 class="footer_subtitle">Follow Me</h4>
+
+                    <div class="footer_social-link">
+                        <a href="">
+                            <img src="Img/icon-facebook.svg" alt="" class="footer_social-icon">
+                        </a>
+                        <a href="">
+                            <img src="Img/icon-twitter.svg" alt="" class="footer_social-icon">
+                        </a>
+                        <a href="">
+                            <img src="Img/icon-pinterest.svg" alt="" class="footer_social-icon">
+                        </a>
+                        <a href="">
+                            <img src="Img/icon-instagram.svg" alt="" class="footer_social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Address</h3>
+
+                <ul class="footer_links">
+                    <li><a href="" class="footer_link">About Us</a></li>
+                    <li><a href="" class="footer_link">Delivery Information</a></li>
+                    <li><a href="" class="footer_link">Privacy Policy</a></li>
+                    <li><a href="" class="footer_link">Term & Condition</a></li>
+                    <li><a href="" class="footer_link">Contact Us</a></li>
+                    <li><a href="" class="footer_link">Support Center</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">My Account</h3>
+
+                <ul class="footer_links">
+                    <li><a href="" class="footer_link">Sign In</a></li>
+                    <li><a href="" class="footer_link">View Cart</a></li>
+                    <li><a href="" class="footer_link">My Wishlist</a></li>
+                    <li><a href="" class="footer_link">Track My Order</a></li>
+                    <li><a href="" class="footer_link">Help</a></li>
+                    <li><a href="" class="footer_link">Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Secured Payment Gateways</h3>
+
+                <img src="Img/payment-method.png" alt="" class="payment_img">
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p class="designedby">Designed by Raj Gupta 💗</p>
+        </div>
+    </footer>
+    <!-- Swiper JS File -->
+    <script src="Jsfile/swiper-bundle.min.js"></script>
+    <!--------Script Js File  -------->
+    <script src="Jsfile/script.js"></script>
+</body>
+
+</html>
